@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="@dimen/key_horizotal_gap"
+    android:verticalGap="@dimen/key_vartical_gap"
+    android:keyHeight="@dimen/key_height"
+    android:keyWidth="@dimen/key_width">
+    <Row>
+        <Key android:codes="4104" android:keyLabel="ဈ"  android:horizontalGap="0.5%" ></Key>
+        <Key android:codes="4125" android:keyLabel="ဝ" ></Key>
+        <Key android:codes="4131" android:keyLabel="ဣ" ></Key>
+        <Key android:codes="-87" android:keyLabel="၎င်:" ></Key>
+        <Key android:codes="4132" android:keyLabel="ဤ" ></Key>
+        <Key android:codes="4172" android:keyLabel="၌" ></Key>
+        <Key android:codes="4133" android:keyLabel="ဥ" ></Key>
+        <Key android:codes="4173" android:keyLabel="၍" ></Key>
+        <Key android:codes="4126" android:keyLabel="သ" ></Key>
+        <Key android:codes="4135" android:keyLabel="ဧ" ></Key>
+
+    </Row>
+    <Row>
+        <Key android:codes="4119" android:keyLabel="ဗ" android:horizontalGap="0.5%" ></Key>
+        <Key android:codes="4158" android:keyLabel=" ှ" ></Key>
+        <Key android:codes="4142" android:keyLabel="ီ" ></Key>
+        <Key android:codes="4229" android:keyLabel="ႅ " ></Key>
+        <Key android:codes="4153" android:keyLabel=" ္" ></Key>
+        <Key android:codes="4157" android:keyLabel=" ွ" ></Key>
+        <Key android:codes="4150" android:keyLabel="ံ" ></Key>
+        <Key android:codes="4146" android:keyLabel="ဲ" ></Key>
+        <Key android:codes="4114" android:keyLabel="ဒ" ></Key>
+        <Key android:codes="4115" android:keyLabel="ဓ" ></Key>
+    </Row>
+
+    <Row>
+        <Key android:codes="-40" android:keyIcon="@drawable/ic_shift_white" android:horizontalGap="0.5%" android:keyWidth="14%"></Key>
+        <Key android:codes="4135" android:keyLabel="ဇ"></Key>
+        <Key android:codes="4108" android:keyLabel="ဌ"></Key>
+        <Key android:codes="4099" android:keyLabel="ဃ"></Key>
+        <Key android:codes="4107" android:keyLabel="ဋ"></Key>
+        <Key android:codes="4127" android:keyLabel="ဟ"></Key>
+        <Key android:codes="4105" android:keyLabel="ဉ"></Key>
+        <Key android:codes="4175" android:keyLabel="၏"></Key>
+        <Key android:codes="-5" android:keyIcon="@drawable/ic_backspace_white" android:keyWidth="14%" android:isRepeatable="true"></Key>
+    </Row>
+
+    <Row>
+        <Key android:codes="-70" android:keyLabel="/၁၂၃" android:horizontalGap="0.5%" android:keyWidth="14%"></Key>
+        <Key android:codes="-51" android:keyIcon="@drawable/ic_language_white" android:keyWidth="10%"></Key>
+        <Key android:codes="4111" android:keyLabel="ဏ" ></Key>
+        <Key android:codes="32" android:keyLabel="မြန်မာ" android:keyWidth="28%"></Key>
+        <Key android:codes="4170" android:keyLabel="၊"></Key>
+        <Key android:codes="4171" android:keyLabel="။"></Key>
+        <Key android:codes="-4" android:keyIcon="@drawable/ic_enter_white" android:keyWidth="14%"></Key>
+    </Row>
+
+
+</Keyboard>

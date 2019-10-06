@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_width">9%</dimen>
+    <dimen name="key_height">42dp</dimen>
+    <dimen name="key_vartical_gap">1%</dimen>
+    <dimen name="key_horizotal_gap">1%</dimen>
+</resources>
